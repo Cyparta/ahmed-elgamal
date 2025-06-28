@@ -21,7 +21,7 @@ const translations = {
     'nav.business-analysis': 'Business Analysis',
     'nav.achievements': 'Achievements',
     'nav.contact': 'Contact',
-    
+
     // Home Page
     'home.title': 'Ahmed El-Gamal',
     'home.subtitle': 'Business Analyst & Product Owner',
@@ -31,7 +31,7 @@ const translations = {
     'home.stats.clients': 'Satisfied Clients',
     'home.stats.industries': 'Industries',
     'home.stats.products': 'Products Launched',
-    
+
     // About Page
     'about.title': 'About Me',
     'about.subtitle': 'Passionate About Digital Innovation',
@@ -45,7 +45,7 @@ const translations = {
     'about.collaboration.desc': 'Working with cross-functional teams to deliver exceptional results',
     'about.innovation': 'Innovation',
     'about.innovation.desc': 'Ensuring every product meets user needs and strategic KPIs',
-    
+
     // Experience Page
     'experience.title': 'Professional Experience',
     'experience.company': 'Cyparta',
@@ -59,46 +59,82 @@ const translations = {
     'experience.resp5': 'Maintain detailed documentation for stakeholders',
     'experience.impact': 'Current Impact',
     'experience.impact.desc': 'Leading product development initiatives that have streamlined business processes and improved client satisfaction. Actively managing multiple product backlogs while ensuring alignment with strategic business objectives and maintaining high-quality deliverables.',
-    
-    // Projects Page
-    'projects.title': 'Featured Projects',
-    'projects.subtitle': 'Transforming business challenges into scalable digital solutions across multiple industries',
-    
-    // Skills Page
-    'skills.title': 'Technical & Strategic Skills',
-    'skills.technical': 'Technical Expertise',
-    'skills.soft': 'Core Competencies',
-    'skills.proficiency': 'Proficiency Overview',
-    
-    // Business Analysis Page
-    'ba.title': 'Business Analysis',
-    'ba.subtitle': 'Transforming requirements into working systems through strategic analysis and agile product design.',
-    'ba.services': 'Core Services',
-    'ba.highlights': 'Case Highlights',
-    'ba.process': 'My Analysis Process',
-    
-    // Achievements Page
-    'achievements.title': 'Professional Achievements',
-    'achievements.subtitle': 'Measurable impact across industries, delivering value through strategic analysis and product excellence',
-    'achievements.milestones': 'Key Milestones',
-    'achievements.recognition': 'Impact & Recognition',
-    
-    // Contact Page
-    'contact.title': "Let's Connect",
-    'contact.subtitle': "Ready to transform your business ideas into reality? Let's discuss how we can work together.",
-    'contact.info': 'Get in Touch',
-    'contact.form': 'Send a Message',
-    'contact.name': 'Name',
-    'contact.email': 'Email',
-    'contact.message': 'Message',
-    'contact.send': 'Send Message',
-    'contact.whatsapp': 'Chat with Me on WhatsApp',
-    'contact.cta.title': 'Ready to Start Your Next Project?',
-    'contact.cta.desc': 'Whether you need business analysis, product strategy, or end-to-end project management, I\'m here to help turn your vision into reality.',
-    
+
+    // skills Page
+  "skills.title": "Technical & Strategic Skills",
+  "skills.technical": "Technical Expertise",
+  "skills.soft": "Core Competencies",
+  "skills.proficiency": "Proficiency Overview",
+
+  "skills.technical1": "Business Documentation",
+  "skills.technical2": "Modeling & Visualization",
+  "skills.technical3": "Product Tools",
+  "skills.technical4": "Design Tools",
+  "skills.userStories": "User Stories",
+  "skills.uml": "UML Diagrams",
+  "skills.flowcharts": "Flowcharts",
+  "skills.wireframes": "Wireframes",
+
+  "skills.soft1": "Strategic Planning",
+  "skills.soft2": "Analytical Thinking",
+  "skills.soft3": "Team Collaboration",
+  "skills.soft4": "Communication",
+  "skills.soft5": "Agile Product Ownership",
+
+  "skills.proficiency1": "Business Analysis",
+  "skills.proficiency2": "Product Management",
+  "skills.proficiency3": "Agile Methodology",
+  "skills.proficiency4": "Stakeholder Management",
+  "skills.proficiency5": "Documentation",
+  "skills.proficiency6": "Strategic Planning",
+  
+/////////////////
+// Business Analysis Page
+"ba.title": "Business Analysis",
+  "ba.subtitle": "Transforming requirements into working systems through strategic analysis and agile product design.",
+  "ba.services": "Core Services",
+  "ba.services.1.title": "Stakeholder Discovery",
+  "ba.services.1.desc": "Identifying and engaging key stakeholders to understand business needs and objectives.",
+  "ba.services.2.title": "Requirement Elicitation",
+  "ba.services.2.desc": "Gathering, analyzing, and documenting detailed business and functional requirements.",
+  "ba.services.3.title": "Feature Prioritization",
+  "ba.services.3.desc": "Strategic prioritization of features based on business value and user impact.",
+  "ba.services.4.title": "Documentation (BRD, FRD, SRS)",
+  "ba.services.4.desc": "Creating comprehensive documentation to guide development and ensure clarity.",
+  "ba.services.5.title": "Sprint Planning & Product Ownership",
+  "ba.services.5.desc": "Leading agile ceremonies and managing product backlogs for optimal delivery.",
+  "ba.services.6.title": "MVP Definition",
+  "ba.services.6.desc": "Defining minimum viable products that deliver maximum business value.",
+  "ba.services.7.title": "Wireframes & Journey Mapping",
+  "ba.services.7.desc": "Creating visual representations of user flows and system interactions.",
+  "ba.highlights": "Case Highlights",
+  "ba.highlights.1.project": "Fast Taxi",
+  "ba.highlights.1.achievement": "Reduced failed bookings by 22%",
+  "ba.highlights.1.desc": "Optimized booking flow and implemented smart matching algorithms",
+  "ba.highlights.2.project": "Investo",
+  "ba.highlights.2.achievement": "Smart alerts boosted investor engagement",
+  "ba.highlights.2.desc": "Designed personalized notification system for investment opportunities",
+  "ba.highlights.3.project": "Florida",
+  "ba.highlights.3.achievement": "Fully automated daily farm operations",
+  "ba.highlights.3.desc": "Streamlined agricultural processes with predictive analytics integration",
+  "ba.process": "My Analysis Process",
+  "ba.process.1.step": "01",
+  "ba.process.1.title": "Discovery",
+  "ba.process.1.desc": "Understanding business context and stakeholder needs",
+  "ba.process.2.step": "02",
+  "ba.process.2.title": "Analysis",
+  "ba.process.2.desc": "Deep dive into requirements and process mapping",
+  "ba.process.3.step": "03",
+  "ba.process.3.title": "Design",
+  "ba.process.3.desc": "Creating solutions and defining user experiences",
+  "ba.process.4.step": "04",
+  "ba.process.4.title": "Delivery",
+  "ba.process.4.desc": "Agile implementation with continuous feedback",
+
     // Footer
     'footer.rights': '© 2024 Ahmed El-Gamal – All rights reserved.',
   },
+
   ar: {
     // Navigation
     'nav.home': 'الرئيسية',
@@ -109,7 +145,7 @@ const translations = {
     'nav.business-analysis': 'تحليل الأعمال',
     'nav.achievements': 'الإنجازات',
     'nav.contact': 'التواصل',
-    
+
     // Home Page
     'home.title': 'أحمد الجمل',
     'home.subtitle': 'محلل أعمال ومالك منتج',
@@ -119,7 +155,7 @@ const translations = {
     'home.stats.clients': 'عميل راضٍ',
     'home.stats.industries': 'مجال صناعي',
     'home.stats.products': 'منتج مُطلق',
-    
+
     // About Page
     'about.title': 'نبذة عني',
     'about.subtitle': 'شغوف بالابتكار الرقمي',
@@ -133,7 +169,7 @@ const translations = {
     'about.collaboration.desc': 'العمل مع فرق متعددة التخصصات لتحقيق نتائج استثنائية',
     'about.innovation': 'الابتكار',
     'about.innovation.desc': 'ضمان أن كل منتج يلبي احتياجات المستخدمين ومؤشرات الأداء الاستراتيجية',
-    
+
     // Experience Page
     'experience.title': 'الخبرة المهنية',
     'experience.company': 'سايبارتا',
@@ -147,43 +183,77 @@ const translations = {
     'experience.resp5': 'الحفاظ على التوثيق المفصل لأصحاب المصلحة',
     'experience.impact': 'التأثير الحالي',
     'experience.impact.desc': 'قيادة مبادرات تطوير المنتجات التي عملت على تبسيط العمليات التجارية وتحسين رضا العملاء. إدارة نشطة لعدة قوائم انتظار للمنتجات مع ضمان التوافق مع الأهداف التجارية الاستراتيجية والحفاظ على جودة عالية للمخرجات.',
-    
-    // Projects Page
-    'projects.title': 'المشاريع المميزة',
-    'projects.subtitle': 'تحويل تحديات الأعمال إلى حلول رقمية قابلة للتوسع عبر صناعات متعددة',
-    
-    // Skills Page
-    'skills.title': 'المهارات التقنية والاستراتيجية',
-    'skills.technical': 'الخبرة التقنية',
-    'skills.soft': 'الكفاءات الأساسية',
-    'skills.proficiency': 'نظرة عامة على الكفاءة',
-    
+
+
+    // skills Page
+    "skills.title": "المهارات التقنية والاستراتيجية",
+  "skills.technical": "الخبرة التقنية",
+  "skills.soft": "الكفاءات الأساسية",
+  "skills.proficiency": "نظرة عامة على الكفاءة",
+
+  "skills.technical1": "توثيق الأعمال",
+  "skills.technical2": "النمذجة والتصور",
+  "skills.technical3": "أدوات إدارة المنتجات",
+  "skills.technical4": "أدوات التصميم",
+  "skills.userStories": "قصص المستخدمين",
+  "skills.uml": "مخططات UML",
+  "skills.flowcharts": "مخططات التدفق",
+  "skills.wireframes": "إطارات التصميم",
+
+  "skills.soft1": "التخطيط الاستراتيجي",
+  "skills.soft2": "التفكير التحليلي",
+  "skills.soft3": "العمل الجماعي",
+  "skills.soft4": "الاتصال والتواصل",
+  "skills.soft5": "ملكية المنتج بطريقة أجايل",
+
+  "skills.proficiency1": "تحليل الأعمال",
+  "skills.proficiency2": "إدارة المنتجات",
+  "skills.proficiency3": "منهجية أجايل",
+  "skills.proficiency4": "إدارة أصحاب المصلحة",
+  "skills.proficiency5": "التوثيق",
+  "skills.proficiency6": "التخطيط الاستراتيجي",
+
     // Business Analysis Page
-    'ba.title': 'تحليل الأعمال',
-    'ba.subtitle': 'تحويل المتطلبات إلى أنظمة عمل من خلال التحليل الاستراتيجي وتصميم المنتجات المرن.',
-    'ba.services': 'الخدمات الأساسية',
-    'ba.highlights': 'أبرز الحالات',
-    'ba.process': 'عملية التحليل الخاصة بي',
-    
-    // Achievements Page
-    'achievements.title': 'الإنجازات المهنية',
-    'achievements.subtitle': 'تأثير قابل للقياس عبر الصناعات، تقديم القيمة من خلال التحليل الاستراتيجي وتميز المنتجات',
-    'achievements.milestones': 'المعالم الرئيسية',
-    'achievements.recognition': 'التأثير والاعتراف',
-    
-    // Contact Page
-    'contact.title': 'لنتواصل',
-    'contact.subtitle': 'مستعد لتحويل أفكار عملك إلى واقع؟ دعنا نناقش كيف يمكننا العمل معًا.',
-    'contact.info': 'تواصل معي',
-    'contact.form': 'إرسال رسالة',
-    'contact.name': 'الاسم',
-    'contact.email': 'البريد الإلكتروني',
-    'contact.message': 'الرسالة',
-    'contact.send': 'إرسال الرسالة',
-    'contact.whatsapp': 'تحدث معي على واتساب',
-    'contact.cta.title': 'مستعد لبدء مشروعك القادم؟',
-    'contact.cta.desc': 'سواء كنت تحتاج إلى تحليل الأعمال أو استراتيجية المنتج أو إدارة المشاريع من البداية إلى النهاية، أنا هنا لمساعدتك في تحويل رؤيتك إلى واقع.',
-    
+     "ba.title": "تحليل الأعمال",
+  "ba.subtitle": "تحويل المتطلبات إلى أنظمة عمل من خلال التحليل الاستراتيجي وتصميم المنتجات المرن.",
+  "ba.services": "الخدمات الأساسية",
+  "ba.services.1.title": "اكتشاف أصحاب المصلحة",
+  "ba.services.1.desc": "تحديد أصحاب المصلحة الرئيسيين والتفاعل معهم لفهم احتياجات الأعمال والأهداف.",
+  "ba.services.2.title": "جمع المتطلبات",
+  "ba.services.2.desc": "جمع وتحليل وتوثيق المتطلبات التجارية والوظيفية بالتفصيل.",
+  "ba.services.3.title": "ترتيب أولويات الميزات",
+  "ba.services.3.desc": "ترتيب استراتيجي للميزات بناءً على القيمة التجارية وتأثير المستخدم.",
+  "ba.services.4.title": "التوثيق (BRD, FRD, SRS)",
+  "ba.services.4.desc": "إنشاء مستندات شاملة لتوجيه التطوير وضمان الوضوح.",
+  "ba.services.5.title": "تخطيط السبرنت وملكية المنتج",
+  "ba.services.5.desc": "قيادة اجتماعات الأجايل وإدارة قوائم المهام لتحقيق التسليم الأمثل.",
+  "ba.services.6.title": "تحديد المنتج القابل للإطلاق MVP",
+  "ba.services.6.desc": "تحديد الحد الأدنى من المنتج القابل للإطلاق الذي يقدم أعلى قيمة تجارية.",
+  "ba.services.7.title": "مخططات UX وخريطة الرحلة",
+  "ba.services.7.desc": "إنشاء تصورات مرئية لتدفقات المستخدمين وتفاعلات النظام.",
+  "ba.highlights": "أبرز الحالات",
+  "ba.highlights.1.project": "فاست تاكسي",
+  "ba.highlights.1.achievement": "انخفاض في الحجوزات الفاشلة بنسبة 22%",
+  "ba.highlights.1.desc": "تحسين مسار الحجز وتطبيق خوارزميات مطابقة ذكية",
+  "ba.highlights.2.project": "إنفستو",
+  "ba.highlights.2.achievement": "زيادة تفاعل المستثمرين عبر التنبيهات الذكية",
+  "ba.highlights.2.desc": "تصميم نظام تنبيهات مخصص لفرص الاستثمار",
+  "ba.highlights.3.project": "فلوريدا",
+  "ba.highlights.3.achievement": "أتمتة كاملة للعمليات اليومية في المزرعة",
+  "ba.highlights.3.desc": "تبسيط العمليات الزراعية باستخدام تحليلات تنبؤية",
+  "ba.process": "عملية التحليل الخاصة بي",
+  "ba.process.1.step": "٠١",
+  "ba.process.1.title": "الاكتشاف",
+  "ba.process.1.desc": "فهم سياق الأعمال واحتياجات أصحاب المصلحة",
+  "ba.process.2.step": "٠٢",
+  "ba.process.2.title": "التحليل",
+  "ba.process.2.desc": "تحليل عميق للمتطلبات ورسم العمليات",
+  "ba.process.3.step": "٠٣",
+  "ba.process.3.title": "التصميم",
+  "ba.process.3.desc": "إنشاء الحلول وتحديد تجارب المستخدم",
+  "ba.process.4.step": "٠٤",
+  "ba.process.4.title": "التنفيذ",
+  "ba.process.4.desc": "تنفيذ مرن مع تغذية راجعة مستمرة",
     // Footer
     'footer.rights': '© 2024 أحمد الجمال – جميع الحقوق محفوظة.',
   }

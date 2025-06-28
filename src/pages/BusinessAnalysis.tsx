@@ -1,61 +1,88 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Search, FileText, Target, Workflow, Users, Lightbulb, TrendingUp, CheckCircle } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
+
 
 const BusinessAnalysis = () => {
+  const { t } = useLanguage();
+
   const services = [
     {
       icon: Search,
-      title: 'Stakeholder Discovery',
-      description: 'Identifying and engaging key stakeholders to understand business needs and objectives.'
+      title: t('ba.services.1.title'),
+      description: t('ba.services.1.desc')
     },
     {
       icon: FileText,
-      title: 'Requirement Elicitation',
-      description: 'Gathering, analyzing, and documenting detailed business and functional requirements.'
+      title: t('ba.services.2.title'),
+      description: t('ba.services.2.desc')
     },
     {
       icon: Target,
-      title: 'Feature Prioritization',
-      description: 'Strategic prioritization of features based on business value and user impact.'
+      title: t('ba.services.3.title'),
+      description: t('ba.services.3.desc')
     },
     {
       icon: Workflow,
-      title: 'Documentation (BRD, FRD, SRS)',
-      description: 'Creating comprehensive documentation to guide development and ensure clarity.'
+      title: t('ba.services.4.title'),
+      description: t('ba.services.4.desc')
     },
     {
       icon: Users,
-      title: 'Sprint Planning & Product Ownership',
-      description: 'Leading agile ceremonies and managing product backlogs for optimal delivery.'
+      title: t('ba.services.5.title'),
+      description: t('ba.services.5.desc')
     },
     {
       icon: Lightbulb,
-      title: 'MVP Definition',
-      description: 'Defining minimum viable products that deliver maximum business value.'
+      title: t('ba.services.6.title'),
+      description: t('ba.services.6.desc')
     },
     {
       icon: TrendingUp,
-      title: 'Wireframes & Journey Mapping',
-      description: 'Creating visual representations of user flows and system interactions.'
+      title: t('ba.services.7.title'),
+      description: t('ba.services.7.desc')
     }
   ];
 
   const caseHighlights = [
     {
-      project: 'Fast Taxi',
-      achievement: 'Reduced failed bookings by 22%',
-      description: 'Optimized booking flow and implemented smart matching algorithms'
+      project: t('ba.highlights.1.project'),
+      achievement: t('ba.highlights.1.achievement'),
+      description: t('ba.highlights.1.desc')
     },
     {
-      project: 'Investo',
-      achievement: 'Smart alerts boosted investor engagement',
-      description: 'Designed personalized notification system for investment opportunities'
+      project: t('ba.highlights.2.project'),
+      achievement: t('ba.highlights.2.achievement'),
+      description: t('ba.highlights.2.desc')
     },
     {
-      project: 'Florida',
-      achievement: 'Fully automated daily farm operations',
-      description: 'Streamlined agricultural processes with predictive analytics integration'
+      project: t('ba.highlights.3.project'),
+      achievement: t('ba.highlights.3.achievement'),
+      description: t('ba.highlights.3.desc')
+    }
+  ];
+
+  const process = [
+    {
+      step: t('ba.process.1.step'),
+      title: t('ba.process.1.title'),
+      description: t('ba.process.1.desc')
+    },
+    {
+      step: t('ba.process.2.step'),
+      title: t('ba.process.2.title'),
+      description: t('ba.process.2.desc')
+    },
+    {
+      step: t('ba.process.3.step'),
+      title: t('ba.process.3.title'),
+      description: t('ba.process.3.desc')
+    },
+    {
+      step: t('ba.process.4.step'),
+      title: t('ba.process.4.title'),
+      description: t('ba.process.4.desc')
     }
   ];
 
@@ -69,10 +96,10 @@ const BusinessAnalysis = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Business <span className="text-gold-500">Analysis</span>
+            {t('ba.title').split(' ')[0]} <span className="text-gold-500">{t('ba.title').split(' ')[1]}</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            "Transforming requirements into working systems through strategic analysis and agile product design."
+            {t('ba.subtitle')}
           </p>
           <div className="w-24 h-1 bg-gold-500 mx-auto"></div>
         </motion.div>
@@ -85,7 +112,7 @@ const BusinessAnalysis = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-3xl font-bold text-gray-900 mb-12 text-center"
           >
-            Core Services
+            {t('ba.services')}
           </motion.h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,11 +127,11 @@ const BusinessAnalysis = () => {
                 <div className="w-16 h-16 bg-gold-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-gold-200 transition-colors duration-300">
                   <service.icon className="text-gold-500" size={32} />
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors duration-300">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
@@ -121,9 +148,9 @@ const BusinessAnalysis = () => {
           className="bg-white rounded-xl shadow-xl p-8 md:p-12"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Case Highlights
+            {t('ba.highlights')}
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {caseHighlights.map((highlight, index) => (
               <motion.div
@@ -136,15 +163,15 @@ const BusinessAnalysis = () => {
                 <div className="w-12 h-12 bg-gold-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="text-gold-500" size={24} />
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   {highlight.project}
                 </h3>
-                
+
                 <p className="text-gold-600 font-semibold mb-3">
                   {highlight.achievement}
                 </p>
-                
+
                 <p className="text-gray-600 text-sm leading-relaxed">
                   {highlight.description}
                 </p>
@@ -161,16 +188,11 @@ const BusinessAnalysis = () => {
           className="mt-16 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            My Analysis Process
+            {t('ba.process')}
           </h2>
-          
+
           <div className="grid md:grid-cols-4 gap-6">
-            {[
-              { step: '01', title: 'Discovery', description: 'Understanding business context and stakeholder needs' },
-              { step: '02', title: 'Analysis', description: 'Deep dive into requirements and process mapping' },
-              { step: '03', title: 'Design', description: 'Creating solutions and defining user experiences' },
-              { step: '04', title: 'Delivery', description: 'Agile implementation with continuous feedback' }
-            ].map((phase, index) => (
+            {process.map((phase, index) => (
               <motion.div
                 key={phase.step}
                 initial={{ opacity: 0, y: 30 }}
@@ -187,7 +209,7 @@ const BusinessAnalysis = () => {
                 <p className="text-gray-600 text-sm">
                   {phase.description}
                 </p>
-                
+
                 {index < 3 && (
                   <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-gold-200 transform -translate-y-1/2"></div>
                 )}
