@@ -131,9 +131,119 @@ const translations = {
   "ba.process.4.title": "Delivery",
   "ba.process.4.desc": "Agile implementation with continuous feedback",
 
+// CONTACT
+'contact.lets': "Let's",
+'contact.connect': "Connect",
+'contact.ready': "Ready to transform your business ideas into reality? Let's discuss how we can work together.",
+'contact.getInTouch': "Get in Touch",
+'contact.email': "Email",
+'contact.phone': "Phone",
+'contact.linkedin': "LinkedIn",
+'contact.chatWhatsapp': "Chat with Me on WhatsApp",
+'contact.sendMessage': "Send a Message",
+'contact.name': "Name",
+'contact.namePlaceholder': "Your full name",
+'contact.emailPlaceholder': "your.email@example.com",
+'contact.message': "Message",
+'contact.messagePlaceholder': "Tell me about your project or how I can help...",
+'contact.sendMessageBtn': "Send Message",
+'contact.readyProject': "Ready to Start Your Next Project?",
+'contact.projectDesc': "Whether you need business analysis, product strategy, or end-to-end project management, I'm here to help turn your vision into reality.",
+'contact.emailMe': "Email Me",
+'contact.whatsapp': "WhatsApp",
+
+// ashievements Page
+'achievements.title': 'Professional',
+'achievements.titleGold': 'Achievements',
+'achievements.subtitle': 'Measurable impact across industries, delivering value through strategic analysis and product excellence',
+'achievements.projectsLabel': 'Projects Delivered',
+'achievements.projectsDesc': 'Successfully completed projects across multiple domains',
+'achievements.clientsLabel': 'Clients Across Multiple Sectors',
+'achievements.clientsDesc': 'Satisfied clients from startups to enterprise companies',
+'achievements.industriesLabel': 'Industries Explored',
+'achievements.industriesDesc': 'Diverse industry experience from fintech to agriculture',
+'achievements.productsLabel': 'Digital Products Launched',
+'achievements.productsDesc': 'End-to-end product development and successful launches',
+'achievements.timelineTitle': 'Key Milestones',
+'achievements.timeline.2024.title': 'Product Owner at Cyparta',
+'achievements.timeline.2024.desc': 'Leading product development initiatives and strategic planning',
+'achievements.timeline.2023.title': '100+ Projects Milestone',
+'achievements.timeline.2023.desc': 'Reached significant milestone in project delivery across multiple industries',
+'achievements.timeline.2022.title': 'Multi-Industry Expertise',
+'achievements.timeline.2022.desc': 'Expanded expertise across 30+ different industry domains',
+'achievements.timeline.2021.title': 'Enterprise Solutions',
+'achievements.timeline.2021.desc': 'Started delivering large-scale enterprise solutions and ERP systems',
+'achievements.recognitionTitle': 'Impact & Recognition',
+'achievements.recognition.0': 'Average improvement in operational efficiency',
+'achievements.recognition.1': 'Client satisfaction rate across all projects',
+'achievements.recognition.2': 'Average increase in business revenue',
+
+
+// Projects Page
+'projects.title': 'Featured Projects',
+'projects.subtitle': 'A selection of impactful projects delivered across industries.',
+'projects.impactLabel': 'Impact:',
+'projects.metricLabel': 'Key Metric:',
+'projects.completed': 'Project Completed',
+'projects.ctaTitle': 'Have a Project in Mind?',
+'projects.ctaDesc': "Let's discuss how I can help transform your business challenges into successful digital solutions.",
+'projects.ctaBtn': 'Start Your Project',
+
+'projects.businessCloudInfinity.title': 'Business Cloud Infinity',
+'projects.businessCloudInfinity.description': 'ERP system used by 15 companies. Reduced reporting time by 50%.',
+'projects.businessCloudInfinity.impact': 'Streamlined operations for 15+ companies',
+'projects.businessCloudInfinity.metrics': '50% faster reporting',
+'projects.businessCloudInfinity.category': 'Enterprise',
+
+'projects.fastTaxi.title': 'Fast Taxi',
+'projects.fastTaxi.description': 'Transport app with 50K+ rides/month. Increased ad revenue by 30%.',
+'projects.fastTaxi.impact': '50K+ monthly rides',
+'projects.fastTaxi.metrics': '30% revenue increase',
+'projects.fastTaxi.category': 'Transportation',
+
+'projects.helloShawarma.title': 'Hello Shawarma',
+'projects.helloShawarma.description': 'Self-service restaurant system deployed in 10 branches. Order time cut from 5 to 2 minutes.',
+'projects.helloShawarma.impact': '10 restaurant branches',
+'projects.helloShawarma.metrics': '60% faster ordering',
+'projects.helloShawarma.category': 'Food & Beverage',
+
+'projects.floridaSystem.title': 'Florida System',
+'projects.floridaSystem.description': 'Agri-tech platform managing over 100,000 animals with predictive analytics.',
+'projects.floridaSystem.impact': '100K+ animals managed',
+'projects.floridaSystem.metrics': 'Predictive analytics',
+'projects.floridaSystem.category': 'Agriculture',
+
+'projects.investo.title': 'Investo',
+'projects.investo.description': 'Investment platform managing $10M+ in assets with personalized alerts.',
+'projects.investo.impact': '$10M+ assets managed',
+'projects.investo.metrics': 'Personalized alerts',
+'projects.investo.category': 'Finance',
+
+'projects.changeMe.title': 'Change Me',
+'projects.changeMe.description': 'Clinic app with 1,200+ monthly bookings. Reduced cancellations to 8%.',
+'projects.changeMe.impact': '1,200+ monthly bookings',
+'projects.changeMe.metrics': '8% cancellation rate',
+'projects.changeMe.category': 'Healthcare',
+
+'projects.darAlAjooz.title': 'Dar Al Ajooz',
+'projects.darAlAjooz.description': 'Quran memorization app with 5,000+ users and progress tracking.',
+'projects.darAlAjooz.impact': '5,000+ active users',
+'projects.darAlAjooz.metrics': 'Progress tracking',
+'projects.darAlAjooz.category': 'Education',
+
+'projects.yesCap.title': 'YesCap',
+'projects.yesCap.description': 'Taxi booking app with 100K+ monthly rides. Dynamic pricing improved profits by 20%.',
+'projects.yesCap.impact': '100K+ monthly rides',
+'projects.yesCap.metrics': '20% profit increase',
+'projects.yesCap.category': 'Transportation',
+
     // Footer
     'footer.rights': '© 2024 Ahmed El-Gamal – All rights reserved.',
   },
+
+
+
+
 
   ar: {
     // Navigation
@@ -254,8 +364,116 @@ const translations = {
   "ba.process.4.step": "٠٤",
   "ba.process.4.title": "التنفيذ",
   "ba.process.4.desc": "تنفيذ مرن مع تغذية راجعة مستمرة",
+  
+    // Contact Page
+  'contact.lets': "هيا",
+'contact.connect': "نتواصل",
+'contact.ready': "هل أنت مستعد لتحويل أفكارك التجارية إلى واقع؟ دعنا نناقش كيف يمكننا العمل معًا.",
+'contact.getInTouch': "تواصل معي",
+'contact.email': "البريد الإلكتروني",
+'contact.phone': "الهاتف",
+'contact.linkedin': "لينكدإن",
+'contact.chatWhatsapp': "تحدث معي على واتساب",
+'contact.sendMessage': "أرسل رسالة",
+'contact.name': "الاسم",
+'contact.namePlaceholder': "اسمك الكامل",
+'contact.emailPlaceholder': "your.email@example.com",
+'contact.message': "الرسالة",
+'contact.messagePlaceholder': "حدثني عن مشروعك أو كيف يمكنني مساعدتك...",
+'contact.sendMessageBtn': "إرسال الرسالة",
+'contact.readyProject': "هل أنت مستعد لبدء مشروعك القادم؟",
+'contact.projectDesc': "سواء كنت بحاجة لتحليل الأعمال أو استراتيجية المنتج أو إدارة المشروع من البداية للنهاية، أنا هنا لمساعدتك في تحقيق رؤيتك.",
+'contact.emailMe': "راسلني",
+'contact.whatsapp': "واتساب",
+
+
+// ashievements Page
+'achievements.title': 'الإنجازات',
+'achievements.titleGold': 'المهنية',
+'achievements.subtitle': 'أثر ملموس عبر الصناعات، وتقديم قيمة من خلال التحليل الاستراتيجي والتميز في المنتجات',
+'achievements.projectsLabel': 'مشاريع مُنجزة',
+'achievements.projectsDesc': 'مشاريع مكتملة بنجاح في مجالات متعددة',
+'achievements.clientsLabel': 'عملاء من قطاعات متعددة',
+'achievements.clientsDesc': 'عملاء راضون من الشركات الناشئة إلى المؤسسات الكبرى',
+'achievements.industriesLabel': 'صناعات تم استكشافها',
+'achievements.industriesDesc': 'خبرة صناعية متنوعة من التقنية المالية إلى الزراعة',
+'achievements.productsLabel': 'منتجات رقمية تم إطلاقها',
+'achievements.productsDesc': 'تطوير منتجات من البداية للنهاية وإطلاقها بنجاح',
+'achievements.timelineTitle': 'أهم المحطات',
+'achievements.timeline.2024.title': 'مالك منتج في سايبارتا',
+'achievements.timeline.2024.desc': 'قيادة مبادرات تطوير المنتجات والتخطيط الاستراتيجي',
+'achievements.timeline.2023.title': 'تجاوز 100 مشروع',
+'achievements.timeline.2023.desc': 'تحقيق إنجاز كبير في تسليم المشاريع عبر صناعات متعددة',
+'achievements.timeline.2022.title': 'خبرة متعددة الصناعات',
+'achievements.timeline.2022.desc': 'توسيع الخبرة عبر أكثر من 30 مجال صناعي مختلف',
+'achievements.timeline.2021.title': 'حلول للمؤسسات',
+'achievements.timeline.2021.desc': 'بدء تقديم حلول مؤسسية واسعة النطاق وأنظمة ERP',
+'achievements.recognitionTitle': 'الأثر والتقدير',
+'achievements.recognition.0': 'متوسط التحسن في الكفاءة التشغيلية',
+'achievements.recognition.1': 'معدل رضا العملاء عبر جميع المشاريع',
+'achievements.recognition.2': 'متوسط زيادة الإيرادات التجارية',
+
+    // Projects Page
+  
+'projects.title': 'المشاريع المميزة',
+'projects.subtitle': 'مجموعة من المشاريع المؤثرة التي تم تنفيذها عبر مختلف الصناعات.',
+'projects.impactLabel': 'الأثر:',
+'projects.metricLabel': 'المؤشر الرئيسي:',
+'projects.completed': 'تم إنجاز المشروع',
+'projects.ctaTitle': 'هل لديك مشروع في ذهنك؟',
+'projects.ctaDesc': 'دعنا نناقش كيف يمكنني مساعدتك في تحويل تحديات عملك إلى حلول رقمية ناجحة.',
+'projects.ctaBtn': 'ابدأ مشروعك',
+
+'projects.businessCloudInfinity.title': 'بيزنس كلاود إنفينيتي',
+'projects.businessCloudInfinity.description': 'نظام ERP يُستخدم في 15 شركة. تم تقليل وقت التقارير بنسبة 50٪.',
+'projects.businessCloudInfinity.impact': 'تبسيط العمليات لأكثر من 15 شركة',
+'projects.businessCloudInfinity.metrics': 'تقارير أسرع بنسبة 50٪',
+'projects.businessCloudInfinity.category': 'المؤسسات',
+
+'projects.fastTaxi.title': 'فاست تاكسي',
+'projects.fastTaxi.description': 'تطبيق نقل مع أكثر من 50 ألف رحلة شهريًا. زيادة إيرادات الإعلانات بنسبة 30٪.',
+'projects.fastTaxi.impact': 'أكثر من 50 ألف رحلة شهريًا',
+'projects.fastTaxi.metrics': 'زيادة الإيرادات بنسبة 30٪',
+'projects.fastTaxi.category': 'النقل',
+
+'projects.helloShawarma.title': 'هالو شاورما',
+'projects.helloShawarma.description': 'نظام مطاعم الخدمة الذاتية في 10 فروع. تقليل وقت الطلب من 5 إلى دقيقتين.',
+'projects.helloShawarma.impact': '10 فروع مطاعم',
+'projects.helloShawarma.metrics': 'تسريع الطلب بنسبة 60٪',
+'projects.helloShawarma.category': 'الأغذية والمشروبات',
+
+'projects.floridaSystem.title': 'نظام فلوريدا',
+'projects.floridaSystem.description': 'منصة زراعية تدير أكثر من 100,000 حيوان مع تحليلات تنبؤية.',
+'projects.floridaSystem.impact': 'إدارة أكثر من 100 ألف حيوان',
+'projects.floridaSystem.metrics': 'تحليلات تنبؤية',
+'projects.floridaSystem.category': 'الزراعة',
+
+'projects.investo.title': 'إنفستو',
+'projects.investo.description': 'منصة استثمار تدير أصولًا بأكثر من 10 مليون دولار مع تنبيهات مخصصة.',
+'projects.investo.impact': 'إدارة أصول بأكثر من 10 مليون دولار',
+'projects.investo.metrics': 'تنبيهات مخصصة',
+'projects.investo.category': 'التمويل',
+
+'projects.changeMe.title': 'تغيير مي',
+'projects.changeMe.description': 'تطبيق عيادة مع أكثر من 1200 حجز شهريًا. تقليل الإلغاءات إلى 8٪.',
+'projects.changeMe.impact': 'أكثر من 1200 حجز شهريًا',
+'projects.changeMe.metrics': 'معدل إلغاء 8٪',
+'projects.changeMe.category': 'الرعاية الصحية',
+
+'projects.darAlAjooz.title': 'دار العجوز',
+'projects.darAlAjooz.description': 'تطبيق تحفيظ القرآن مع أكثر من 5000 مستخدم وتتبع التقدم.',
+'projects.darAlAjooz.impact': 'أكثر من 5000 مستخدم نشط',
+'projects.darAlAjooz.metrics': 'تتبع التقدم',
+'projects.darAlAjooz.category': 'التعليم',
+
+'projects.yesCap.title': 'يس كاب',
+'projects.yesCap.description': 'تطبيق حجز تاكسي مع أكثر من 100 ألف رحلة شهريًا. التسعير الديناميكي زاد الأرباح بنسبة 20٪.',
+'projects.yesCap.impact': 'أكثر من 100 ألف رحلة شهريًا',
+'projects.yesCap.metrics': 'زيادة الأرباح بنسبة 20٪',
+'projects.yesCap.category': 'النقل',
+
     // Footer
-    'footer.rights': '© 2024 أحمد الجمال – جميع الحقوق محفوظة.',
+    'footer.rights': '© 2024 أحمد الجمل – جميع الحقوق محفوظة.',
   }
 };
 

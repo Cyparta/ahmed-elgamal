@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, Users, Building, Rocket } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Achievements = () => {
+  const { t } = useLanguage();
+
   const [counts, setCounts] = useState({
     projects: 0,
     clients: 0,
@@ -15,32 +18,32 @@ const Achievements = () => {
       icon: Trophy,
       number: 120,
       suffix: '+',
-      label: 'Projects Delivered',
-      description: 'Successfully completed projects across multiple domains',
+      label: t('achievements.projectsLabel'),
+      description: t('achievements.projectsDesc'),
       color: 'from-gold-400 to-gold-600'
     },
     {
       icon: Users,
       number: 80,
       suffix: '+',
-      label: 'Clients Across Multiple Sectors',
-      description: 'Satisfied clients from startups to enterprise companies',
+      label: t('achievements.clientsLabel'),
+      description: t('achievements.clientsDesc'),
       color: 'from-blue-400 to-blue-600'
     },
     {
       icon: Building,
       number: 30,
       suffix: '',
-      label: 'Industries Explored',
-      description: 'Diverse industry experience from fintech to agriculture',
+      label: t('achievements.industriesLabel'),
+      description: t('achievements.industriesDesc'),
       color: 'from-green-400 to-green-600'
     },
     {
       icon: Rocket,
       number: 40,
       suffix: '+',
-      label: 'Digital Products Launched',
-      description: 'End-to-end product development and successful launches',
+      label: t('achievements.productsLabel'),
+      description: t('achievements.productsDesc'),
       color: 'from-purple-400 to-purple-600'
     }
   ];
@@ -79,10 +82,10 @@ const Achievements = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Professional <span className="text-gold-500">Achievements</span>
+            {t('achievements.title')} <span className="text-gold-500">{t('achievements.titleGold')}</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Measurable impact across industries, delivering value through strategic analysis and product excellence
+            {t('achievements.subtitle')}
           </p>
           <div className="w-24 h-1 bg-gold-500 mx-auto"></div>
         </motion.div>
@@ -132,30 +135,30 @@ const Achievements = () => {
           className="bg-white rounded-xl shadow-xl p-8 md:p-12"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Key Milestones
+            {t('achievements.timelineTitle')}
           </h2>
           
           <div className="space-y-8">
             {[
               {
                 year: '2024',
-                title: 'Product Owner at Cyparta',
-                description: 'Leading product development initiatives and strategic planning'
+                title: t('achievements.timeline.2024.title'),
+                description: t('achievements.timeline.2024.desc')
               },
               {
                 year: '2023',
-                title: '100+ Projects Milestone',
-                description: 'Reached significant milestone in project delivery across multiple industries'
+                title: t('achievements.timeline.2023.title'),
+                description: t('achievements.timeline.2023.desc')
               },
               {
                 year: '2022',
-                title: 'Multi-Industry Expertise',
-                description: 'Expanded expertise across 30+ different industry domains'
+                title: t('achievements.timeline.2022.title'),
+                description: t('achievements.timeline.2022.desc')
               },
               {
                 year: '2021',
-                title: 'Enterprise Solutions',
-                description: 'Started delivering large-scale enterprise solutions and ERP systems'
+                title: t('achievements.timeline.2021.title'),
+                description: t('achievements.timeline.2021.desc')
               }
             ].map((milestone, index) => (
               <motion.div
@@ -189,22 +192,22 @@ const Achievements = () => {
           className="mt-16 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Impact & Recognition
+            {t('achievements.recognitionTitle')}
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 metric: '50%',
-                description: 'Average improvement in operational efficiency'
+                description: t('achievements.recognition.0')
               },
               {
                 metric: '95%',
-                description: 'Client satisfaction rate across all projects'
+                description: t('achievements.recognition.1')
               },
               {
                 metric: '30%',
-                description: 'Average increase in business revenue'
+                description: t('achievements.recognition.2')
               }
             ].map((stat, index) => (
               <motion.div

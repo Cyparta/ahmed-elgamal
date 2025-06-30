@@ -52,7 +52,7 @@ const Navbar = () => {
               to="/" 
               className="text-2xl font-bold bg-gradient-to-r from-gray-900 via-gold-600 to-gray-900 bg-clip-text text-transparent"
             >
-              {language === 'ar' ? 'أحمد الجمال' : 'Ahmed El-Gamal'}
+              {language === 'ar' ? 'أحمد الجمل' : 'Ahmed El-Gamal'}
             </Link>
           </motion.div>
 

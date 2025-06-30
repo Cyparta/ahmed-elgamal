@@ -10,76 +10,76 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Business Cloud Infinity',
-      description: 'ERP system used by 15 companies. Reduced reporting time by 50%.',
-      impact: 'Streamlined operations for 15+ companies',
-      metrics: '50% faster reporting',
+      title: t('projects.businessCloudInfinity.title'),
+      description: t('projects.businessCloudInfinity.description'),
+      impact: t('projects.businessCloudInfinity.impact'),
+      metrics: t('projects.businessCloudInfinity.metrics'),
       icon: TrendingUp,
       color: 'from-blue-500 to-blue-600',
-      category: 'Enterprise'
+      category: t('projects.businessCloudInfinity.category')
     },
     {
-      title: 'Fast Taxi',
-      description: 'Transport app with 50K+ rides/month. Increased ad revenue by 30%.',
-      impact: '50K+ monthly rides',
-      metrics: '30% revenue increase',
+      title: t('projects.fastTaxi.title'),
+      description: t('projects.fastTaxi.description'),
+      impact: t('projects.fastTaxi.impact'),
+      metrics: t('projects.fastTaxi.metrics'),
       icon: Users,
       color: 'from-green-500 to-green-600',
-      category: 'Transportation'
+      category: t('projects.fastTaxi.category')
     },
     {
-      title: 'Hello Shawarma',
-      description: 'Self-service restaurant system deployed in 10 branches. Order time cut from 5 to 2 minutes.',
-      impact: '10 restaurant branches',
-      metrics: '60% faster ordering',
+      title: t('projects.helloShawarma.title'),
+      description: t('projects.helloShawarma.description'),
+      impact: t('projects.helloShawarma.impact'),
+      metrics: t('projects.helloShawarma.metrics'),
       icon: Clock,
       color: 'from-orange-500 to-orange-600',
-      category: 'Food & Beverage'
+      category: t('projects.helloShawarma.category')
     },
     {
-      title: 'Florida System',
-      description: 'Agri-tech platform managing over 100,000 animals with predictive analytics.',
-      impact: '100K+ animals managed',
-      metrics: 'Predictive analytics',
+      title: t('projects.floridaSystem.title'),
+      description: t('projects.floridaSystem.description'),
+      impact: t('projects.floridaSystem.impact'),
+      metrics: t('projects.floridaSystem.metrics'),
       icon: BarChart,
       color: 'from-emerald-500 to-emerald-600',
-      category: 'Agriculture'
+      category: t('projects.floridaSystem.category')
     },
     {
-      title: 'Investo',
-      description: 'Investment platform managing $10M+ in assets with personalized alerts.',
-      impact: '$10M+ assets managed',
-      metrics: 'Personalized alerts',
+      title: t('projects.investo.title'),
+      description: t('projects.investo.description'),
+      impact: t('projects.investo.impact'),
+      metrics: t('projects.investo.metrics'),
       icon: DollarSign,
       color: 'from-gold-500 to-gold-600',
-      category: 'Finance'
+      category: t('projects.investo.category')
     },
     {
-      title: 'Change Me',
-      description: 'Clinic app with 1,200+ monthly bookings. Reduced cancellations to 8%.',
-      impact: '1,200+ monthly bookings',
-      metrics: '8% cancellation rate',
+      title: t('projects.changeMe.title'),
+      description: t('projects.changeMe.description'),
+      impact: t('projects.changeMe.impact'),
+      metrics: t('projects.changeMe.metrics'),
       icon: Target,
       color: 'from-purple-500 to-purple-600',
-      category: 'Healthcare'
+      category: t('projects.changeMe.category')
     },
     {
-      title: 'Dar Al Ajooz',
-      description: 'Quran memorization app with 5,000+ users and progress tracking.',
-      impact: '5,000+ active users',
-      metrics: 'Progress tracking',
+      title: t('projects.darAlAjooz.title'),
+      description: t('projects.darAlAjooz.description'),
+      impact: t('projects.darAlAjooz.impact'),
+      metrics: t('projects.darAlAjooz.metrics'),
       icon: Users,
       color: 'from-indigo-500 to-indigo-600',
-      category: 'Education'
+      category: t('projects.darAlAjooz.category')
     },
     {
-      title: 'YesCap',
-      description: 'Taxi booking app with 100K+ monthly rides. Dynamic pricing improved profits by 20%.',
-      impact: '100K+ monthly rides',
-      metrics: '20% profit increase',
+      title: t('projects.yesCap.title'),
+      description: t('projects.yesCap.description'),
+      impact: t('projects.yesCap.impact'),
+      metrics: t('projects.yesCap.metrics'),
       icon: Zap,
       color: 'from-red-500 to-red-600',
-      category: 'Transportation'
+      category: t('projects.yesCap.category')
     }
   ];
 
@@ -171,11 +171,11 @@ const Projects = () => {
                 {/* Metrics */}
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-500 font-medium">Impact:</span>
+                    <span className="text-gray-500 font-medium">{t('projects.impactLabel')}</span>
                     <span className="font-semibold text-gray-700">{project.impact}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-500 font-medium">Key Metric:</span>
+                    <span className="text-gray-500 font-medium">{t('projects.metricLabel')}</span>
                     <span className="font-semibold text-gold-600">{project.metrics}</span>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const Projects = () => {
                       transition={{ duration: 1.5, delay: 0.5 + index * 0.1 }}
                     />
                   </div>
-                  <p className="text-xs text-gray-500 text-center font-medium">Project Completed</p>
+                  <p className="text-xs text-gray-500 text-center font-medium">{t('projects.completed')}</p>
                 </div>
               </div>
             </ModernCard>
@@ -205,13 +205,13 @@ const Projects = () => {
               className="text-3xl font-bold text-gray-900 mb-4"
               whileHover={{ scale: 1.02 }}
             >
-              Have a Project in Mind?
+              {t('projects.ctaTitle')}
             </motion.h3>
             <motion.p
               className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto"
               whileHover={{ scale: 1.01 }}
             >
-              Let's discuss how I can help transform your business challenges into successful digital solutions.
+              {t('projects.ctaDesc')}
             </motion.p>
             <motion.button
               className="px-8 py-4 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
@@ -219,7 +219,7 @@ const Projects = () => {
               whileTap={{ scale: 0.95 }}
             >
               <span className="flex items-center">
-                Start Your Project
+                {t('projects.ctaBtn')}
                 <ExternalLink className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
               </span>
             </motion.button>
